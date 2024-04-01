@@ -6,7 +6,7 @@
     color: #000
 }
 
-.contenedor-prestaciones-noMobile {
+.container-queofrecemos {
     max-width: 1244px;
     width: 100%;
     margin: auto;
@@ -15,14 +15,14 @@
 }
 
 @media (max-width: 920px) {
-    .contenedor-prestaciones-noMobile {
+    .container-queofrecemos{
         margin-top:5rem;
         max-width: 832px
     }
 }
 
 @media (max-width: 650px) {
-    .contenedor-prestaciones-noMobile {
+    .container-queofrecemos {
         display:none
     }
 }
