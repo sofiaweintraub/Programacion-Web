@@ -411,3 +411,47 @@
         height: 17rem
     }
 }
+
+/*footer*/
+footer{
+    background-image: url('/Images/fondo.png');
+  }
+  
+  .footer-content{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .social-media{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .social-media-icon{
+    display: inline-block;
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #ffff;
+    border-radius: 50%;
+    text-align: center;
+    color: #ffff;
+  
+  } 
+  
+  .social-media-icon:hover{
+    background: #ffff;
+    color: #bababa;
+  
+  }
+  
+  .social-media-icon i{
+    font-size: 30px;
+    line-height: 60px;
+  
+  }
+  
