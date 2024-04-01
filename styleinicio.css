@@ -1,22 +1,47 @@
-/* Estilos generales */
+* {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+:root{
+    scroll-behavior: smooth;
+}
+   
 body {
     font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 0;
 }
 
-.container {
+.container{
+    width: 90%;
     max-width: 1200px;
-    margin: 0 auto;
+    overflow: hidden;
+    margin: auto;
+    padding: 60px 0;
+  
 }
+  
 
-/* Estilos del encabezado */
-.header {
-    position: relative;
-    text-align: center;
+.header{
+    height: 100vh;
+    background-image: url('/Images/fondo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+  
+.title {
+    font-size: 130px;
+    font-weight: bold;
     color: white;
-}
-
+    margin-left: 15%;
+    margin-top: 7%;
+  }
+  
 .imagen-header-estatica {
     width: 100%;
     height: auto;
@@ -37,7 +62,7 @@ body {
 }
 
 .navbar-link:hover {
-    color: #ffc107; /* Cambia de color al pasar el mouse */
+    color: #8a826b; /* Cambia de color al pasar el mouse */
 }
 
 .legend {
@@ -66,9 +91,9 @@ body {
 
 /* Estilos del botón de reserva */
 .btn-contacto {
-    background-color: #ffc107;
+    background-color: #8a826b;
     border: none;
-    color: white;
+    color: black;
     padding: 10px 20px;
     font-size: 16px;
     border-radius: 5px;
@@ -76,7 +101,7 @@ body {
 }
 
 .btn-contacto:hover {
-    background-color: #ffae19; /* Cambia de color al pasar el mouse */
+    background-color: #8a826b; /* Cambia de color al pasar el mouse */
 }
 
 /* Estilos del pie de página */
