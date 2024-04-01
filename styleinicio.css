@@ -35,9 +35,9 @@
   
    /* Título de la página */
    .title {
-    font-size: 130px;
+    font-size: 100px;
     font-weight: bold;
-    color: white;
+    color: black;
     margin-left: 15%;
     margin-top: 7%;
   }
