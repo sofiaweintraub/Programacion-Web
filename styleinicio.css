@@ -1,36 +1,91 @@
-* {
+/* Estilos generales */
+body {
     font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-  }
-  
-.container-home {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: #fff;
-    color: #000
 }
 
-.contenedor-prestaciones-noMobile {
-    max-width: 1244px;
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Estilos del encabezado */
+.header {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.imagen-header-estatica {
     width: 100%;
-    margin: auto;
-    margin-top: 7.5rem;
-    padding: 0 1rem
+    height: auto;
+    border-radius: 10px;
 }
 
-@media (max-width: 920px) {
-    .contenedor-prestaciones-noMobile {
-        margin-top:5rem;
-        max-width: 832px
-    }
+.header-navbar {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
 
-@media (max-width: 650px) {
-    .contenedor-prestaciones-noMobile {
-        display:none
-    }
+.navbar-link {
+    text-decoration: none;
+    color: white;
+    margin: 0 20px;
+    font-weight: bold;
 }
-  
+
+.navbar-link:hover {
+    color: #ffc107; /* Cambia de color al pasar el mouse */
+}
+
+.legend {
+    margin-top: 50px;
+}
+
+/* Estilos de las secciones de prestaciones */
+.queofrecemos {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.prestaciones-1,
+.prestaciones-2,
+.prestaciones-3,
+.prestaciones-4 {
+    text-align: center;
+}
+
+.imagen-fondo-prestaciones {
+    width: 100px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Estilos del botón de reserva */
+.btn-contacto {
+    background-color: #ffc107;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-contacto:hover {
+    background-color: #ffae19; /* Cambia de color al pasar el mouse */
+}
+
+/* Estilos del pie de página */
+footer {
+    background-color: #0b2933;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
