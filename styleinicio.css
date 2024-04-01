@@ -5,193 +5,32 @@
     box-sizing: border-box;
   }
   
-   li {
-    display: inline;
-    margin-left: 55px;
-    margin-top: 20px;
-   }
-  
-  :root{
-    scroll-behavior: smooth;
-  }
-  
-  .contenedor{
-    width: 90%;
-    max-width: 1200px;
-    overflow: hidden;
-    margin: auto;
-    padding: 60px 0;
-  
-  }
-  
-  header{
-    height: 100vh;
-    background-image: url('/Imagenes/fondo.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-  }
-  
-   /* Título de la página */
-   .title {
-    font-size: 100px;
-    font-weight: bold;
-    color: black;
-    margin-left: 15%;
-    margin-top: 7%;
-  }
-  
-   /* Información */
-  #informacion {
-    flex-direction: row;
-    color: white;
+.container-home {
     display: flex;
-    justify-content: space-between;
-    padding: 60px;
-    position: absolute;
-    bottom: 0;
-  }
-  
-  .columna {
-   flex-basis: 20%;
-   text-align: right;
-  }
-  
-  #informacion h4 {
-   font-size: 20px;
-   font-weight: bold;
-  }
-  
-  button{
-    background-color: #ebedee;
-    border: 0;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0,0, 0.5);
-    color:rgba(0, 0, 0, 0.747);
-    font-size: 14px ;
-    padding: 10px 25px;
-  }
-  
-  #contacto {
-    font-weight: bold;
-    color: #bababa;
-    background-color: #fff;
-    text-align: end;
-    margin-top: 30px;
-  }
-  
-  .formulario {
-    width: 80%;
-    padding: 2% 10%;
-    margin: 0 auto;
-  }
-  
-  .formulario h1{
-    text-align: center;
-    font-size: 40px;
-    margin-bottom: 30px;
-  }
-  
-  .formulario input {
-    width: 47%;
-    margin: 20px 1%;
-    padding: 8px 10px;
-    border: 0px;
-    border-bottom: 2px solid #bababa;
-    font-size: 18px;
-    color: #bababa;
-  }
-  
-  .formulario form textarea{
-    width: 97%;
-    margin: 20px 1%;
-    padding: 8px 10px;
-    border: 0px;
-    border-bottom: 2px solid #bababa;
-    font-size: 18px;
-    color: #bababa;
-  }
-  
-  /*footer*/
-  footer{
-    background-image: url('/Imagenes/fondo.png');
-  }
-  
-  .footer-content{
-    display:flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
-  
-  .social-media{
-    width: 50%;
-    display: flex;
-    justify-content: flex-end;
-  }
-  
-  .social-media-icon{
-    display: inline-block;
-    margin-left: 20px;
-    width: 60px;
-    height: 60px;
-    border: 1px solid #ffff;
-    border-radius: 50%;
-    text-align: center;
-    color: #ffff;
-  
-  } 
-  
-  .social-media-icon:hover{
-    background: #ffff;
-    color: #bababa;
-  
-  }
-  
-  .social-media-icon i{
-    font-size: 30px;
-    line-height: 60px;
-  
-  }
-  
-  /* Visión adaptada al celular */
-  @media only screen and (max-width: 1000px) {
-  
-    .title {
-      display: none;
-    }
-    
-   #informacion {
     flex-direction: column;
-   }
-   
-    #contacto{
-      text-align: center;
+    justify-content: center;
+    background-color: #fff;
+    color: #000
+}
+
+.contenedor-prestaciones-noMobile {
+    max-width: 1244px;
+    width: 100%;
+    margin: auto;
+    margin-top: 7.5rem;
+    padding: 0 1rem
+}
+
+@media (max-width: 920px) {
+    .contenedor-prestaciones-noMobile {
+        margin-top:5rem;
+        max-width: 832px
     }
-  
-    .formulario h1{
-      font-size: 25px;
+}
+
+@media (max-width: 650px) {
+    .contenedor-prestaciones-noMobile {
+        display:none
     }
-    
-    .formulario input {
-  
-      font-size: 14px;
-    }
-    
-    .formulario form textarea{
-      font-size: 14px;
-    }
-  
-    .footer-content{
-      display:flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      padding-top: 40px;
-      padding-bottom: 40px;
-    }  
-    
-  }
-  
+}
   
