@@ -91,12 +91,25 @@
     margin-top: 30px;
   }
 
+  #contacto {
+    font-weight: bold;
+    color: #bababa;
+    background-color: #fff;
+    text-align: end;
+    padding: 20px; 
+    box-sizing: border-box; 
+    clear: both; 
+  }
   
   /*footer*/
   footer{
     background-image: url('/Imagenes/fondofoot.png');
   }
   
+  footer {
+    margin-top: 50px;
+  }
+
   .footer-content {
     display: flex;
     justify-content: space-between;
