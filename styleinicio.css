@@ -35,7 +35,7 @@
   
    /* Título de la página */
    .title {
-    font-size: 90px;
+    font-size: 40px;
     font-weight: bold;
     color: white;
     text-align: center;
@@ -43,7 +43,7 @@
   }
 
   .subtitle {
-    font-size: 70px;
+    font-size: 10px;
     font-weight: bold;
     color: #fece52;
     text-align: center;
@@ -116,7 +116,7 @@
     height: 60px;
     border: 1px solid #ffff;
     border-radius: 50%;
-    text-align: center;
+    text-align: right;
     color: #ffff;
   
   } 
