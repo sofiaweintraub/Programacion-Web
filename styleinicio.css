@@ -82,6 +82,11 @@
     box-sizing: border-box;
     clear: both;
   }
+
+  .contenido {
+    display: flex;
+    align-items: center;
+  }
   
   #quienes-somos h2 {
     font-size: 35px;
