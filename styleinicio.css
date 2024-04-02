@@ -89,8 +89,8 @@
     font-weight: bold;
     color: #243ee7;
     text-align: left;
-    margin-top: 7%;
-    margin-bottom: 3%;
+    margin-top: 3%;
+    margin-bottom: 7%;
   }
   
   #quienes-somos p {
@@ -119,7 +119,7 @@
   }
   
   footer {
-    margin-top: 50px;
+    margin-top: 30px;
   }
 
   .footer-content {
