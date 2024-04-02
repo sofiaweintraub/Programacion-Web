@@ -65,7 +65,7 @@
   
   .columna {
    flex-basis: 20%;
-   text-align: right;
+   text-align: left;
   }
   
   #informacion h4 {
