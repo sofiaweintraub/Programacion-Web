@@ -15,7 +15,7 @@
     scroll-behavior: smooth;
   }
   
-  .contenedor{
+  .container{
     width: 90%;
     max-width: 1200px;
     overflow: hidden;
@@ -92,7 +92,7 @@
   
   /*footer*/
   footer{
-    background-image: url('/Images/fondo.png');
+    background-image: url('/Imagenes/fondo.png');
   }
   
   .footer-content{
