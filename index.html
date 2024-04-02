@@ -3,20 +3,23 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fútbol Full-Experience</title>
-    <link rel="icon" type="image/png" href="Imagenes/LogoInicio.png">
     <link rel="stylesheet" href="styleinicio.css">
+    <link rel="icon" type="image/x-icon" href="Imagenes/LogoInicio.png">
+    <title>Fútbol Experience</title>
+    <!-- Enlace a los estilos de Bootstrap 5 -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <!-- Fuente Inter -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Iconos socialmedia -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   </head>
 
   <body>
   <header>
-      <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #8a8989;">
+      <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #9dc9ff;">
         <div class="contenedor">
           <!-- Título del menú -->
-          <a class="navbar-brand" href="#" style="color: rgb(214, 85, 25); font-size: 30px;">The best fútbol tours</a>
+          <a class="navbar-brand" href="#" style="color: #e1e1d8; font-size: 19px;">The best fútbol tours</a>
           <!-- Botón de hamburguesa para dispositivos móviles -->
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -25,48 +28,62 @@
           <div class="collapse navbar-collapse ms-auto" id="navbarNav">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item text-center">
-                <a class="nav-link" href="#" style="color: #ffffff; font-size: 20px;">Home</a>
+                <a class="nav-link" href="/" style="color: #f1f2ff; font-size: 20px;">Inicio</a>
               </li>
               <li class="nav-item text-center">
-                <a class="nav-link" href="./tours.html" style="color: #ffffff; font-size: 20px;">Tours</a>
+                <a class="nav-link" href="./tours.html" style="color: #f1f2ff; font-size: 20px;">Tours</a>
               </li>
               <li class="nav-item text-center">
-                <a class="nav-link" href="./galeria.html" style="color: #ffffff; font-size: 20px;">Galería</a>
+                <a class="nav-link" href="./galeria.html" style="color: #f1f2ff; font-size: 20px;">Galería</a>
               </li>
               <li class="nav-item text-center">
-                <a class="nav-link" href="./precios.html" style="color: #ffffff; font-size: 20px;">Precios</a>
+                <a class="nav-link" href="./simulador.html" style="color: #f1f2ff; font-size: 20px;">Precios</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
       
-      <div class="container-legend">
+      <div class="home">
         <h2 class="title">Viví el fútbol como un argentino</h2>
-        <h3 class="subtitle">Conocé las experiencias que tenemos para vos</h3>
-        <button class="btn-contacto">
-          <p><a href=" https://wa.me/+5491168316245?text=Hola, estoy interesado en reservar las experiencias..." target="_blank" rel="noreferrer">Reserva</a></p>
-        </button>
+        <h3 class="subtitle">Conocé un poco más las experiencias que tenemos para vos</h3>
       </div>
     
     </header>
 
     <section id="informacion">
       <div class="columna">
-        <h4>Visitar los destacados</h4>
-        <p>Experiencia inolvidable en los clubes y barrios más emblemáticos de Argentina</p>
+        <h4>Visitá los destacados</h4>
+        <p>Tours hechos para vos, en los clubes y barrios más emblemáticos de Argentina</p>
       </div>
       <div class="columna">
-        <h4>Recuerdos para siempre</h4>
-        <p>De regalo, una camiseta de la selección nacional argentina</p>
+        <h4>Un recuerdo para siempre</h4>
+        <p>De regalo, una camiseta de la selección argentina para vos!</p>
       </div>
       <div class="columna">
         <h4>Comida incluída</h4>
-        <p>Vas a poder disfrutar de un rico asado y vivir la experienca completa</p>
+        <p>Podrás disfrutar de un asado típico y autóctona del país, con sus sabores únicos</p>
       </div>
       <div class="columna">
-        <h4>Viví un partido</h4>
-        <p>Partidos de fútbol todas las semanas para que puedas ir a la cancha!</p>
+        <h4>Match day</h4>
+        <p>Todas las semanas hay partidos de fútbol para que puedas ir a la cancha y disfrutar</p>
+      </div>
+    </section>
+    
+    <section id="contacto">
+      <div class="formulario">
+        <h1>Contacto</h1>
+        <form>
+          <input type="text" placeholder="Nombre y Apellido" required />
+          <input type="mail" placeholder="Correo electrónico" required />
+          <textarea id="mensaje" placeholder="Mensaje" rows="5" required></textarea>
+          <br />
+          <br />
+          <br />
+          <button class="btn" id="botonenviar">Enviar</button>
+          <br />
+          <br />
+        </form>
       </div>
     </section>
     
@@ -85,7 +102,7 @@
         </div>
       </div>
     </footer>
-    
+
   </body>
 </html>
 
