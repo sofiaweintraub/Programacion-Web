@@ -75,7 +75,7 @@
   
   #quienes-somos {
     font-weight: bold;
-    color: #485ff3;
+    color: #6a7dfa;
     background-color: #edf5ff;
     text-align: end;
     padding: 20px;
@@ -84,9 +84,9 @@
   }
   
   #quienes-somos h2 {
-    font-size: 25px;
+    font-size: 35px;
     font-weight: bold;
-    color: #243ee7;
+    color: #485ff3;
     text-align: left;
     margin-top: 3%;
     margin-bottom: 3%;
@@ -95,7 +95,7 @@
   #quienes-somos p {
     font-size: 15px;
     text-align: left;
-    color: #485ff3;
+    color: #6a7dfa;
   }
 
   .texto {
