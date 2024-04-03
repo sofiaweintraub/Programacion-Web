@@ -26,7 +26,7 @@
   
   header{
     height: 100vh;
-    background-image: url('/Imagenes/fondo1.png');
+    background-image: url('/Imagenes/Otros/fondo1.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -119,7 +119,7 @@
   
   /*footer*/
   footer{
-    background-image: url('/Imagenes/fondofoot.png');
+    background-image: url('/Imagenes/Otros/fondofoot.png');
   }
 
   .footer-content {
