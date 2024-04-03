@@ -31,11 +31,11 @@ body {
 
 .image-item img {
     display: block;
+    width: 100%;
     height: auto;
-    width: 1500px; 
-	height: 300px;
-	object-fit: cover;
+    object-fit: cover;
 }
+
 
 .image-item h3 {
     position: absolute;
