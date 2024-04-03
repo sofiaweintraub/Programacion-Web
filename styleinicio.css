@@ -123,17 +123,15 @@
   }
 
   .footer-content {
-    position: relative;
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     flex-wrap: wrap;
     padding-top: 50px;
     padding-bottom: 50px;
   }
   
   .social-media {
-    position: absolute;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -160,4 +158,3 @@
     font-size: 30px;
     line-height: 60px;
   }
-  
