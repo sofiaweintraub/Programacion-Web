@@ -32,8 +32,9 @@ body {
 .image-item img {
     display: block;
     height: auto;
-    height: 300px;
-    object-fit: cover;
+    width: 1500px; 
+	height: 300px;
+	object-fit: cover;
 }
 
 .image-item h3 {
@@ -68,5 +69,3 @@ h3:hover {
     }
     
     }
-    
-
