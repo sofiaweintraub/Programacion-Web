@@ -32,8 +32,8 @@ body {
 .image-item img {
     display: block;
     height: auto;
-    width: 1290; 
-	height: 400px;
+    width: 1300px; 
+	height: 300px;
 	object-fit: cover;
 }
 
