@@ -31,10 +31,12 @@ body {
 
 .image-item img {
     display: block;
-    width: 100vw;
     height: auto;
-    object-fit: cover;
+    width: 1000px; 
+	height: 300px;
+	object-fit: cover;
 }
+
 
 .image-item h3 {
     position: absolute;
