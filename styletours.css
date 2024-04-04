@@ -53,18 +53,32 @@ body {
 }
 
 .maradona-text {
-   color: #ffffff;
-   /*background-color: #d8a4a4;*/
+   color: #f51717;
+   background-color:rgb(253, 219, 219, 0.7);
   }
   
   .river-text {
     color: #e62525;
+    background-color:rgb(209, 209, 209, 0.7);
   }
   
   .boca-text {
-    color: #0038c4; 
+    color: #0038c4;
+    background-color: rgb(255, 233, 145, 0.7); 
   }
 
+  .maradona-text:hover {
+    color: #ffffff;
+  }
+  
+  .river-text:hover {
+    color: #ffffff; 
+  }
+  
+  .boca-text:hover {
+    color: #ffffff;
+  }
+  
 
 @media only screen and (max-width: 1000px) {
 
