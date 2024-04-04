@@ -49,7 +49,7 @@ body {
     font-weight: bold;
     margin: 0;
     padding: 0 10px;
-    background-color: #edf5ff(131, 131, 131, 0.8); /* Color de fondo con transparencia */
+    background-color: rgba(237, 245, 255, 0.7);
 }
 
 h3:hover {
