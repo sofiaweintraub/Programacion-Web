@@ -17,6 +17,11 @@ body {
     scroll-behavior: smooth;
   }
 
+  .navbar-brand img {
+    max-height: 90px; 
+    width: auto;
+  }
+
 /* Banner de fotos */
 .image-container {
     display: flex;
