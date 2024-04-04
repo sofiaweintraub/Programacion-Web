@@ -32,6 +32,12 @@
     background-attachment: fixed;
     background-position: center;
   }
+
+  .navbar-brand img {
+    max-height: 40px; 
+    width: auto;
+}
+
   
    /* Título de la página */
    .title {
