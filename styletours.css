@@ -45,11 +45,11 @@ body {
     transform: translate(-50%, -50%);
     color: #ffffff;
     text-align: center;
-    font-size: 35px;
+    font-size: 30px;
     font-weight: bold;
     margin: 0;
     padding: 0 10px;
-    background-color: rgba(131, 131, 131, 0.8); /* Color de fondo con transparencia */
+    background-color: #edf5ff(131, 131, 131, 0.8); /* Color de fondo con transparencia */
 }
 
 h3:hover {
