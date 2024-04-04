@@ -43,18 +43,27 @@ body {
     top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #ffffff;
+    /*color: #ffffff;*/
     text-align: center;
     font-size: 30px;
     font-weight: bold;
     margin: 0;
     padding: 0 10px;
-    background-color: rgba(237, 245, 255, 0.7);
+    /*background-color: rgba(237, 245, 255, 0.7);*/
 }
 
-h3:hover {
-    color: #2d45e1;
-}
+.maradona-text {
+   color: #ffffff;
+   /*background-color: #d8a4a4;*/
+  }
+  
+  .river-text {
+    color: #e62525;
+  }
+  
+  .boca-text {
+    color: #0038c4; 
+  }
 
 
 @media only screen and (max-width: 1000px) {
