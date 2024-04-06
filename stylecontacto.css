@@ -1,11 +1,13 @@
 * {
   font-family: 'Inter', sans-serif;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 }
 
- li {
+body {
+  background-color: #f6f7ed;
+}
+
+/* Navegación */
+li {
   display: inline;
   margin-left: 55px;
   margin-top: 20px;
@@ -15,32 +17,9 @@
   scroll-behavior: smooth;
 }
 
-.navbar {
-  background-color: #edf5ff;
-}
-
 .navbar-brand img {
   max-height: 90px; 
   width: auto;
-}
-
-.navbar-toggler {
-  border: none;
-}
-
-.navbar-nav {
-  margin-left: auto;
-}
-
-.nav-link {
-  color: #2d45e1;
-  font-size: 20px;
-  font-weight: bold;
-  margin-left: 20px;
-}
-
-.nav-link:hover {
-  color: #1c2e9e;
 }
 
 body {
@@ -112,4 +91,3 @@ button:hover {
 .social-media-icon:hover {
   color: #1c2e9e;
 }
-
