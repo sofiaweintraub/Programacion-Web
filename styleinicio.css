@@ -163,3 +163,28 @@
     font-size: 30px;
     line-height: 60px;
   }
+
+  @media only screen and (max-width: 1000px) {
+
+    .title {
+      display: none;
+    }
+    
+   #informacion {
+    flex-direction: column;
+   }
+   
+    #quienes-somos{
+      text-align: center;
+    }
+  
+    .footer-content{
+      display:flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }  
+    
+  }
+  
