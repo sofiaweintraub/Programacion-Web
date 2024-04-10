@@ -178,7 +178,7 @@
   }
 
   .title {
-    font-size: 48px;
+    font-size: 40px;
     margin-top: 5%;
     margin-bottom: 2%;
   }
@@ -191,6 +191,7 @@
   }
 
   #informacion {
+    font-size: 15px;
     margin-top: 50px;
     margin-bottom: 2%;
   }
