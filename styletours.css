@@ -83,3 +83,35 @@ body {
   .boca-text:hover {
     color: #ffe137;
   }
+
+  /*Para adaptar la vision a otras pantallas*/
+    @media only screen and (max-width: 1000px) {
+    html {
+      font-size: 14px;
+    }
+  
+    .image-item img {
+      width: 100%; 
+      height: auto; 
+    }
+  
+    .image-item h3 {
+      font-size: 20px;
+      top: 60%; 
+    }
+  
+    .maradona-text, .river-text, .boca-text {
+      font-size: 18px;
+    }
+  
+    .image-item h3 {
+      padding: 0 5px; 
+    }
+  
+    .social-media-icon {
+      width: 40px;
+      height: 40px;
+      font-size: 20px;
+      line-height: 40px;
+    }
+  }
