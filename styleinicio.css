@@ -203,6 +203,12 @@
     font-size: 14px;
   }
 
+  .imagen img {
+    max-width: 100%; /* Ajusta el tamaño de la imagen para que se ajuste al contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    max-height: 400px; /* Establece la altura máxima de la imagen */
+  }
+
   .footer-content {
     justify-content: center; 
     padding-top: 30px; 
