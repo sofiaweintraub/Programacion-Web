@@ -164,62 +164,65 @@
     line-height: 60px;
   }
   
-  /*Para adaptar la vision a otras pantallas*/
+  /*Para adaptar la visión a otras pantallas*/
   @media only screen and (max-width: 1000px) {
-    html {
-      font-size: 14px;
-    }
-    
-    .contenedor {
-      width: 95%; 
-      padding: 30px 0;
-    }
-  
-    .title {
-      font-size: 48px;
-      margin-top: 5%;
-      margin-bottom: 2%;
-    }
-  
-    .subtitle {
-      font-size: 24px;
-      margin-top: 1%;
-      margin-bottom: 5%;
-      position: relative;
-      z-index: 1;
-    }
-  
-    #quienes-somos h2 {
-      font-size: 24px;
-      margin-top: 2%;
-      margin-bottom: 2%;
-    }
-  
-    #quienes-somos p {
-      font-size: 14px;
-    }
-  
-    .footer-content {
-      justify-content: right; 
-      padding-top: 30px; 
-      padding-bottom: 30px; 
-    }
-
-    .social-media {
-      display: flex;
-      justify-content: right; 
-      align-items: center;
-      width: 100%;
-    }
-  
-  
-    .social-media-icon {
-      margin: 0 10px;
-      width: 40px;
-      height: 40px;
-      font-size: 20px;
-      line-height: 40px;
-      border-radius: 50%;
-      text-align: center;
-    }
+  html {
+    font-size: 14px;
   }
+  
+  .contenedor {
+    width: 95%; 
+    padding: 30px 0;
+  }
+
+  .title {
+    font-size: 48px;
+    margin-top: 5%;
+    margin-bottom: 2%;
+  }
+
+  .subtitle {
+    font-size: 24px;
+    margin-top: 1%;
+    margin-bottom: 5%;
+  }
+
+  .subtitle {
+    margin-bottom: 20px;
+  }
+
+  #quienes-somos h2 {
+    font-size: 24px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+
+  #quienes-somos p {
+    font-size: 14px;
+  }
+
+  .footer-content {
+    justify-content: center; 
+    padding-top: 30px; 
+    padding-bottom: 30px; 
+  }
+
+  .social-media {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    width: 100%;
+  }
+
+  .social-media-icon {
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    line-height: 60px;
+    border-radius: 50%; 
+    text-align: center;
+    color: #ffffff;
+    background-color: #2d45e1; 
+    margin: 0 10px;
+  }
+}
