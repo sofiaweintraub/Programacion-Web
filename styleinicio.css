@@ -208,6 +208,7 @@
     .social-media {
       display: flex;
       justify-content: right; 
+      align-items: center;
       width: 100%;
     }
   
@@ -218,5 +219,7 @@
       height: 40px;
       font-size: 20px;
       line-height: 40px;
+      border-radius: 50%;
+      text-align: center;
     }
   }
