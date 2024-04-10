@@ -21,3 +21,12 @@
     max-height: 90px; 
     width: auto;
   }
+
+  .contenedor{
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto;
+    padding: 60px 0;
+  
+  }
