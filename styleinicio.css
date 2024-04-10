@@ -192,6 +192,10 @@
     z-index: 1;
   }
 
+  #informacion {
+    margin-top: 50px;
+  }
+
   #quienes-somos h2 {
     font-size: 24px;
     margin-top: 2%;
