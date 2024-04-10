@@ -1,0 +1,23 @@
+* {
+    font-family: 'Inter', sans-serif;
+  }
+  
+  body {
+    background-color: #f6f7ed;
+  }
+  
+  /* Navegación */
+  li {
+    display: inline;
+    margin-left: 55px;
+    margin-top: 20px;
+   }
+  
+  :root{
+    scroll-behavior: smooth;
+  }
+  
+  .navbar-brand img {
+    max-height: 90px; 
+    width: auto;
+  }
