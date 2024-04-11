@@ -191,6 +191,8 @@
     padding-top: 3%;
     padding-bottom: 3%;
     align-items: center;
+    justify-content: left;
+
   }
 
   #quienes-somos h2 {
