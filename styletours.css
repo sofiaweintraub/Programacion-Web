@@ -1,138 +1,85 @@
 * {
-    font-family: 'Inter', sans-serif;
-  }
-  
-body {
-    background-color: #f6f7ed;
+  font-family: 'Inter', sans-serif;
 }
 
- /* Navegación */
- li {
-    display: inline;
-    margin-left: 55px;
-    margin-top: 20px;
-   }
-  
-  :root{
-    scroll-behavior: smooth;
-  }
+body {
+  background-color: #f6f7ed;
+}
 
-  .navbar-brand img {
-    max-height: 90px; 
-    width: auto;
-  }
+/* Navegación */
+li {
+  display: inline;
+  margin-left: 55px;
+  margin-top: 20px;
+ }
+
+:root{
+  scroll-behavior: smooth;
+}
+
+.navbar-brand img {
+  max-height: 90px; 
+  width: auto;
+}
 
 /* Banner de fotos */
 .image-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .image-item {
-    position: relative;
-    overflow: hidden;
+  position: relative;
+  overflow: hidden;
 }
 
 .image-item img {
-    display: block;
-    height: auto;
-    width: 1300px; 
-	height: 300px;
-	object-fit: cover;
+  display: block;
+  height: auto;
+  width: 1300px; 
+height: 300px;
+object-fit: cover;
 }
 
 
 .image-item h3 {
-    position: absolute;
-    top: 80%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    font-size: 30px;
-    font-weight: bold;
-    margin: 0;
-    padding: 0 10px;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /*color: #ffffff;*/
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0 10px;
+  /*background-color: rgba(237, 245, 255, 0.7);*/
 }
 
 .maradona-text {
-   color: #f51717;
-   background-color:rgb(253, 219, 219, 0.7);
-  }
-  
-  .river-text {
-    color: #e62525;
-    background-color:rgb(209, 209, 209, 0.7);
-  }
-  
-  .boca-text {
-    color: #0038c4;
-    background-color: rgb(255, 233, 145, 0.7); 
-  }
+ color: #f51717;
+ background-color:rgb(253, 219, 219, 0.7);
+}
 
-  .maradona-text:hover {
-    color: #342dff;
-  }
-  
-  .river-text:hover {
-    color: #ffffff; 
-  }
-  
-  .boca-text:hover {
-    color: #ffe137;
-  }
+.river-text {
+  color: #e62525;
+  background-color:rgb(209, 209, 209, 0.7);
+}
 
-  /*Para adaptar la visión a otras pantallas*/
-  @media only screen and (max-width: 1000px) {
+.boca-text {
+  color: #0038c4;
+  background-color: rgb(255, 233, 145, 0.7); 
+}
 
-    .image-item {
-        width: 100%; 
-    }
+.maradona-text:hover {
+  color: #342dff;
+}
 
-    .image-item img {
-        display: block;
-        height: auto;
-        height: 300px;
-        object-fit: cover;
-    }
-    
-    }
-    
-    .image-item img {
-    display: block;
-    height: auto;
-    width: 1500px; 
-    height: 300px;
-    object-fit: cover;
-  }
+.river-text:hover {
+  color: #ffffff; 
+}
 
-  .image-item h3 {
-    position: static; 
-    text-align: center; 
-    font-size: 24px; 
-    font-weight: normal; 
-    margin: 10px 0;
-    padding: 0 10px; 
-  }
-
-  .maradona-text,
-  .river-text,
-  .boca-text {
-      background-color: transparent; 
-  }
-
-  .maradona-text:hover {
-    color: #342dff; 
-  }
-
-  .river-text:hover {
-    color: #ffffff; 
-  }
-
-  .boca-text:hover {
-    color: #ffe137;
-  }
-
-
-
-
+.boca-text:hover {
+  color: #ffe137;
+}
