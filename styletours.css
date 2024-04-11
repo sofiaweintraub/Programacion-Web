@@ -48,13 +48,11 @@ body {
     top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
-    /*color: #ffffff;*/
     text-align: center;
     font-size: 30px;
     font-weight: bold;
     margin: 0;
     padding: 0 10px;
-    /*background-color: rgba(237, 245, 255, 0.7);*/
 }
 
 .maradona-text {
@@ -84,10 +82,57 @@ body {
     color: #ffe137;
   }
 
-    /*Para adaptar la visión a otras pantallas*/
-    @media only screen and (max-width: 1000px) {
-    .image-item img {
-        width: 100%;
-        height: auto;
+  /*Para adaptar la visión a otras pantallas*/
+  @media only screen and (max-width: 1000px) {
+
+    .image-item {
+        width: 100%; 
     }
-}
+
+    .image-item img {
+        display: block;
+        height: auto;
+        height: 300px;
+        object-fit: cover;
+    }
+    
+    }
+    
+    .image-item img {
+    display: block;
+    height: auto;
+    width: 1500px; 
+    height: 300px;
+    object-fit: cover;
+  }
+
+  .image-item h3 {
+    position: static; 
+    text-align: center; 
+    font-size: 24px; 
+    font-weight: normal; 
+    margin: 10px 0;
+    padding: 0 10px; 
+  }
+
+  .maradona-text,
+  .river-text,
+  .boca-text {
+      background-color: transparent; 
+  }
+
+  .maradona-text:hover {
+    color: #342dff; 
+  }
+
+  .river-text:hover {
+    color: #ffffff; 
+  }
+
+  .boca-text:hover {
+    color: #ffe137;
+  }
+
+
+
+
