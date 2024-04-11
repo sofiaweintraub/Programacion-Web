@@ -190,9 +190,9 @@
     font-size: 15px;
     padding-top: 3%;
     padding-bottom: 3%;
-    align-items: center;
-    justify-content: left;
-
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left;
   }
 
   #quienes-somos h2 {
