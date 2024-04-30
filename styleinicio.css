@@ -133,7 +133,6 @@
   .footer-content {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     flex-wrap: wrap;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -141,8 +140,7 @@
   
   .social-media {
     display: flex;
-    justify-content: right;
-    align-items: center; 
+    justify-content: flex-end;
     width: 50%;
   }
   
@@ -154,9 +152,9 @@
     border: 1px solid #ffffff;
     border-radius: 50%;
     text-align: center;
-    
     color: #ffffff;
   }
+  
   
   .social-media-icon:hover {
     background: #ffffff;
