@@ -72,7 +72,7 @@
   .columna {
    flex-basis: 20%;
    text-align: left;
-   backdrop-filter: blur(5px);
+   backdrop-filter: blur(10px);
   }
 
   
