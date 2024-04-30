@@ -211,11 +211,13 @@
     max-height: 400px; /* Establece la altura máxima de la imagen */
   }
 
-  .footer-content {
-    justify-content: center; 
-    padding-top: 30px; 
-    padding-bottom: 30px; 
-  }
+  .footer-content{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }  
 
   .social-media {
     display: flex;
