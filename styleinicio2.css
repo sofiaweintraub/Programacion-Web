@@ -1,0 +1,229 @@
+* {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  li {
+    display: inline;
+    margin-left: 55px;
+    margin-top: 20px;
+  }
+  
+  :root {
+    scroll-behavior: smooth;
+  }
+  
+  .navbar-brand img {
+    max-height: 90px;
+    width: auto;
+  }
+  
+  .contenedor {
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto;
+    padding: 60px 0;
+  }
+  
+  header {
+    height: 100vh;
+    background-image: url('/Imagenes/Otros/fondo1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+  }
+  
+  .title {
+    font-size: 73px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 7%;
+    margin-bottom: 3%;
+  }
+  
+  .subtitle {
+    font-size: 35px;
+    font-weight: bold;
+    color: #ffc32d;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 5%;
+  }
+  
+  #informacion {
+    flex-direction: row;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+    position: absolute;
+    bottom: 0;
+  }
+  
+  .columna {
+    flex-basis: 20%;
+    text-align: left;
+  }
+  
+  #informacion h4 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  #quienes-somos {
+    font-weight: bold;
+    color: #2d45e1;
+    background-color: #edf5ff;
+    text-align: end;
+    padding: 20px;
+    box-sizing: border-box;
+    clear: both;
+  }
+  
+  .contenido {
+    display: flex;
+    align-items: center;
+  }
+  
+  #quienes-somos h2 {
+    font-size: 35px;
+    font-weight: bold;
+    color: #2743fb;
+    text-align: left;
+    margin-top: 3%;
+    margin-bottom: 3%;
+  }
+  
+  #quienes-somos p {
+    font-size: 15px;
+    text-align: left;
+    color: #2d45e1;
+  }
+  
+  .texto {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .imagen {
+    flex: 1;
+  }
+  
+  .imagen img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  footer {
+    background-image: url('/Imagenes/Otros/fondofoot.png');
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .social-media {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 50%;
+  }
+  
+  .social-media-icon {
+    display: inline-block;
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .social-media-icon:hover {
+    background: #ffffff;
+    color: #bababa;
+  }
+  
+  .social-media-icon i {
+    font-size: 30px;
+    line-height: 60px;
+  }
+  
+  /* Estilos para pantallas pequeñas */
+  @media only screen and (max-width: 1000px) {
+    html {
+      font-size: 14px;
+    }
+  
+    .contenedor {
+      width: 95%;
+      padding: 30px 0;
+    }
+  
+    .title,
+    .subtitle {
+      display: none;
+    }
+  
+    #informacion {
+      flex-direction: column;
+      font-size: 15px;
+      padding-top: 3%;
+      padding-bottom: 3%;
+      align-items: flex-start;
+      justify-content: center;
+      text-align: left;
+    }
+  
+    #quienes-somos h2 {
+      font-size: 24px;
+      margin-top: 2%;
+      margin-bottom: 2%;
+    }
+  
+    #quienes-somos p {
+      font-size: 14px;
+    }
+  
+    .imagen img {
+      max-width: 100%;
+      height: auto;
+      max-height: 400px;
+    }
+  
+    .footer-content {
+      justify-content: center;
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
+  
+    .social-media {
+      display: flex;
+      justify-content: right;
+      align-items: center;
+      width: 100%;
+    }
+  
+    .social-media-icon {
+      width: 60px;
+      height: 60px;
+      font-size: 30px;
+      line-height: 60px;
+      border-radius: 50%;
+      text-align: center;
+      color: #ffffff;
+      margin: 0 10px;
+    }
+  }
+  

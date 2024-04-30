@@ -1,0 +1,1 @@
+// Variable: espacio reservado en memoria con un identificador
