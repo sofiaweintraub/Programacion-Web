@@ -53,6 +53,7 @@ li {
   font-size: 28px;
   margin-bottom: 20px;
   font-weight: bold;
+  color: #ffc32d;
 }
 
 .contact-info p {
@@ -81,7 +82,7 @@ li {
   font-size: 28px;
   margin-bottom: 20px;
   font-weight: bold;
-
+  color: #ffc32d;
 }
 
 .form-container form input, .form-container form textarea {
