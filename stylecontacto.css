@@ -33,7 +33,10 @@ li {
 #contacto {
   font-weight: bold;
   color: #bababa;
-  background-color: #fff;
+  background-image: url('/Imagenes/Otros/fondo1.png');
+  background-size: cover; 
+  background-position: center; 
+  backdrop-filter: blur(10px);
   text-align: end;
   margin-top: 30px;
   display: flex;
