@@ -1,88 +1,97 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styletours.css">
-    <link rel="icon" type="image/x-icon" href="Imagenes/Otros/LogoInicio.png">
-    <title>Fútbol Experience - Contacto</title>
-    <!-- Enlace a los estilos de Bootstrap 5 -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-    <!-- Fuente Inter -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
-  </head>
-  
-  <body>
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #edf5ff;">
-        <div class="container">
-          <!-- Título del menú -->
-          <a class="navbar-brand" href="#">
-            <img src="Imagenes/Otros/LogoHome.png" alt="Logo completo">
-          </a>
-          <!-- Botón de hamburguesa para dispositivos móviles -->
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <!-- Elementos del menú -->
-          <div class="collapse navbar-collapse ms-auto" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item text-center">
-                <a class="nav-link" href="./index.html" style="color:#2d45e1; font-size: 20px;font-weight: bold">Home</a>
-              </li>
-              <li class="nav-item text-center">
-                <a class="nav-link" href="./tours.html" style="color: #2d45e1; font-size: 20px;font-weight: bold">Tours</a>
-              </li>
-              <li class="nav-item text-center">
-                <a class="nav-link" href="/" style="color: #2d45e1; font-size: 20px;font-weight: bold">Contacto</a>
-              </li>
-              <li class="nav-item text-center">
-                <a class="nav-link" href="./precios.html" style="color: #2d45e1; font-size: 20px;font-weight: bold">Precios</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-  </header>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: space-between;
+    }
+    .left-section {
+      width: 50%;
+      background-color: #f0f0f0;
+      padding: 20px;
+    }
+    .right-section {
+      width: 50%;
+      padding: 20px;
+    }
+    .contact-info {
+      margin-bottom: 20px;
+    }
+    .contact-info h2 {
+      margin-top: 0;
+    }
+    .contact-info p {
+      margin: 5px 0;
+    }
+    .contact-info a {
+      display: block;
+      margin-bottom: 10px;
+      text-decoration: none;
+    }
+    .contact-info img {
+      width: 30px;
+      height: 30px;
+      margin-right: 10px;
+      vertical-align: middle;
+    }
+    .form-container {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+    .form-container input[type="text"],
+    .form-container input[type="email"],
+    .form-container textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      box-sizing: border-box;
+    }
+    .form-container input[type="submit"] {
+      width: 100%;
+      background-color: #4CAF50;
+      color: white;
+      padding: 15px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    .form-container input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
 
-  <section id="contacto">
-    <div class="formulario">
-      <h2>Información de contacto</h2>
-      <form>
-        <input type="text" placeholder="Nombre y Apellido" required />
-        <input type="mail" placeholder="Correo electrónico" required />
-        <textarea id="mensaje" placeholder="Mensaje" rows="5" required></textarea>
-        <br />
-        <br />
-        <br />
-        <button class="btn" id="botonenviar">Enviar formulario</button>
-        <br />
-        <br />
-      </form>
-    </div>
-  </section>
+<div class="left-section">
+  <div class="contact-info">
+    <h2>Información de Contacto</h2>
+    <p><strong>Correo Electrónico:</strong> weintraubsofi@gmail.com</p>
+    <p><strong>Teléfono:</strong> +5491168316245</p>
+    <a href="https://wa.me/+5491168316245?text=Hola! Escribo para saber más acerca de..." target="_blank" rel="noreferrer" target="_blank"><img src="whatsapp_logo.png" alt="WhatsApp">Contactar por WhatsApp</a>
+    <a href="https://www.instagram.com/sofiweintraub" target="_blank"><img src="instagram_logo.png" alt="Instagram">Contactar por Instagram</a>
+  </div>
+</div>
 
+<div class="right-section">
+  <div class="form-container">
+    <h2>Información de Contacto</h2>
+    <form>
+      <input type="text" name="nombre_apellido" placeholder="Nombre y Apellido" required>
+      <input type="tel" name="telefono" placeholder="Teléfono de Contacto" required>
+      <input type="email" name="correo" placeholder="Correo Electrónico" required>
+      <textarea name="mensaje" placeholder="Mensaje" rows="4" required></textarea>
+      <input type="submit" value="Enviar Mensaje">
+    </form>
+  </div>
+</div>
 
-<footer id="contenedor">
-    <div class="contenedor footer-content">
-        <div class="social-media">
-            <a class="social-media-icon" id="youtube-button">
-                <i class='bx bxl-youtube'></i>
-            </a>
-            <a class="social-media-icon" id="whatsapp-button">
-                <i class='bx bxl-whatsapp'></i>
-            </a>
-            <a class="social-media-icon" id="instagram-button">
-                <i class='bx bxl-instagram'></i>
-            </a>
-        </div>
-    </div>
-</footer>
-
-  
-    <!-- Scripts de Bootstrap 5 -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-  
-  </body>
+</body>
 </html>
-
