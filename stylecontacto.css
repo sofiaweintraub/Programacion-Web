@@ -1,0 +1,112 @@
+* {
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background-color: #f6f7ed;
+}
+
+/* Navegación */
+li {
+  display: inline;
+  margin-left: 55px;
+  margin-top: 20px;
+}
+
+:root{
+  scroll-behavior: smooth;
+}
+
+.navbar-brand img {
+  max-height: 90px; 
+  width: auto;
+}
+
+.contenedor{
+  width: 90%;
+  max-width: 1200px;
+  overflow: hidden;
+  margin: auto;
+  padding: 60px 0;
+}
+
+#contacto {
+  font-weight: bold;
+  color: #bababa;
+  background-color: #fff;
+  text-align: end;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-section, .right-section {
+  width: 45%;
+}
+
+.contact-info {
+  padding: 20px;
+}
+
+.contact-info h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.contact-info p {
+  margin-bottom: 10px;
+}
+
+.contact-info a {
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #2d45e1;
+}
+
+.contact-info a img {
+  width: 24px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.form-container {
+  padding: 20px;
+}
+
+.form-container h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.form-container form input, .form-container form textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+}
+
+.form-container form input[type="submit"] {
+  background-color: #2d45e1;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.footer-content {
+  background-color: #edf5ff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.social-media-icon {
+  font-size: 24px;
+  margin: 0 10px;
+  color: #2d45e1;
+  cursor: pointer;
+}
+
+.social-media-icon:hover {
+  color: #1c2e9e;
+}
