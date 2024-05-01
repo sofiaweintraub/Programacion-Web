@@ -189,6 +189,8 @@
       margin-bottom: 5%; /* Ajustar el margen inferior */
       color: #ffc32d;
       font-weight: bold;
+      position: relative; /* Añadir posición relativa */
+      z-index: 1;
     }
   
     #informacion {
@@ -199,6 +201,7 @@
       align-items: flex-start;
       justify-content: center;
       text-align: left;
+      z-index: 0;
     }
   
     #quienes-somos h2 {
