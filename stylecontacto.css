@@ -52,6 +52,7 @@ li {
 .contact-info h2 {
   font-size: 28px;
   margin-bottom: 20px;
+  font-weight: bold;
 }
 
 .contact-info p {
