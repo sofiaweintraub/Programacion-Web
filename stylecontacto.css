@@ -80,6 +80,8 @@ li {
 .form-container h2 {
   font-size: 28px;
   margin-bottom: 20px;
+  font-weight: bold;
+
 }
 
 .form-container form input, .form-container form textarea {
