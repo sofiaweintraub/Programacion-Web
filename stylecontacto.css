@@ -6,6 +6,30 @@ body {
   background-color: #f6f7ed;
 }
 
+li {
+  display: inline;
+  margin-left: 55px;
+  margin-top: 20px;
+ }
+
+:root{
+  scroll-behavior: smooth;
+}
+
+.navbar-brand img {
+  max-height: 90px; 
+  width: auto;
+}
+
+.contenedor{
+  width: 90%;
+  max-width: 1200px;
+  overflow: hidden;
+  margin: auto;
+  padding: 60px 0;
+
+}
+
 #contacto {
   font-weight: bold;
   color: #bababa;
