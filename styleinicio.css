@@ -175,9 +175,9 @@
   
     .title {
       display: block; 
-      font-size: 25px; 
-      margin-top: 5%; /* Ajustar el margen superior */
-      margin-bottom: 3%; /* Ajustar el margen inferior */
+      font-size: 28px; 
+      margin-top: 5%; 
+      margin-bottom: 3%;
       color: #ffc32d;
       font-weight: bold;
     }
