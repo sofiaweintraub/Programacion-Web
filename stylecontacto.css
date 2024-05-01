@@ -1,12 +1,10 @@
 * {
   font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body {
-  background-color: #f6f7ed;
-}
-
-/* Navegación */
 li {
   display: inline;
   margin-left: 55px;
@@ -22,12 +20,21 @@ li {
   width: auto;
 }
 
-.contenedor{
+.contenedor {
   width: 90%;
   max-width: 1200px;
   overflow: hidden;
   margin: auto;
   padding: 60px 0;
+}
+
+header {
+  height: 100vh;
+  background-image: url('/Imagenes/Otros/fondo1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 #contacto {
