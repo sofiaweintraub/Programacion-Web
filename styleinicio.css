@@ -175,7 +175,7 @@
   
     .title {
       display: block; /* Mostrar el título en pantallas pequeñas */
-      font-size: 40px; /* Reducir el tamaño del título para adaptarse */
+      font-size: 28px; /* Reducir el tamaño del título para adaptarse */
       margin-top: 15%; /* Ajustar el margen superior */
       margin-bottom: 3%; /* Ajustar el margen inferior */
       color: white;
@@ -184,7 +184,7 @@
   
     .subtitle {
       display: block; /* Mostrar el subtítulo en pantallas pequeñas */
-      font-size: 25px; /* Reducir el tamaño del subtítulo para adaptarse */
+      font-size: 18px; /* Reducir el tamaño del subtítulo para adaptarse */
       margin-top: 3%; /* Ajustar el margen superior */
       margin-bottom: 5%; /* Ajustar el margen inferior */
       color: #ffc32d;
