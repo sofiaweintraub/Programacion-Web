@@ -28,15 +28,6 @@ li {
   padding: 60px 0;
 }
 
-header {
-  height: 100vh;
-  background-image: url('/Imagenes/Otros/fondo1.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-}
-
 #contacto {
   font-weight: bold;
   color: #bababa;
