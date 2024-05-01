@@ -174,8 +174,8 @@
     }
   
     .title {
-      display: block; /* Mostrar el título en pantallas pequeñas */
-      font-size: 28px; /* Reducir el tamaño del título para adaptarse */
+      display: block; 
+      font-size: 28px; 
       margin-top: 5%; /* Ajustar el margen superior */
       margin-bottom: 3%; /* Ajustar el margen inferior */
       color: white;
@@ -183,14 +183,7 @@
     }
   
     .subtitle {
-      display: block; /* Mostrar el subtítulo en pantallas pequeñas */
-      font-size: 18px; /* Reducir el tamaño del subtítulo para adaptarse */
-      margin-top: 3%; /* Ajustar el margen superior */
-      margin-bottom: 5%; /* Ajustar el margen inferior */
-      color: #ffc32d;
-      font-weight: bold;
-      position: relative; /* Añadir posición relativa */
-      z-index: 1;
+      display: none;
     }
   
     #informacion {
@@ -230,7 +223,7 @@
 
     .social-media {
       display: flex;
-      justify-content: right; /* Cambiado a right */
+      justify-content: right; 
       align-items: center; 
       width: 100%;
     }
@@ -247,8 +240,8 @@
     }
   
     .navbar-nav {
-      flex-direction: column; /* Cambiar a una disposición de columna para pantallas pequeñas */
-      text-align: center; /* Centrar los elementos del menú en pantallas pequeñas */
+      flex-direction: column; 
+      text-align: center; 
     }
   
     .navbar-nav .nav-item {
@@ -257,7 +250,7 @@
   
     .navbar-toggler {
       position: relative; /* Ajustar la posición del botón de hamburguesa */
-      z-index: 1; /* Asegurar que el botón de hamburguesa esté por encima del contenido */
+      z-index: 1; 
     }
   
     .navbar-collapse {
@@ -265,10 +258,10 @@
       top: 100%; /* Alinear el menú desplegable debajo del botón de hamburguesa */
       left: 0; /* Alinear el menú desplegable a la izquierda */
       width: 100%; /* Establecer el ancho completo del menú desplegable */
-      z-index: 1000; /* Asegurar que el menú desplegable esté por encima de otros elementos */
-      background-color: #ffffff; /* Cambiar el color de fondo del menú desplegable */
+      z-index: 1000; 
+      background-color: #ffffff; 
       padding: 10px 0; /* Añadir relleno al menú desplegable */
-      display: none; /* Ocultar el menú desplegable por defecto */
+      display: none; 
     }
   
     .navbar-collapse.show {
