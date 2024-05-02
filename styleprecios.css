@@ -73,22 +73,32 @@ button{
 }
 
 /* Visión adaptada al celular */
-@media only screen and (max-width: 995px) {
-
-  .formulario h1{
-    text-align: center;
-    font-size: 25px;
+@media only screen and (max-width: 1000px) {
+  .formulario {
+    width: 90%; 
+    padding: 5% 5%; 
   }
 
-  .formulario h2{
-    text-align: center;
-    font-size: 15px;
-    margin-bottom: 30px;
+  .formulario h1 {
+    font-size: 20px; 
+  }
+
+  .formulario h2 {
+    font-size: 15px; 
+    margin-bottom: 20px; 
   }
 
   .formulario input {
-    border-bottom: 1.5px solid #bababa;
-    font-size: 15px;
+    width: 100%; 
+    margin: 20px 0;
+    font-size: 14px; 
+    padding: 8px; 
+    border-bottom: 1.5px solid #bababa; 
+  }
+
+  button {
+    font-size: 14px; 
+    padding: 8px 20px; 
   }
 
 }
