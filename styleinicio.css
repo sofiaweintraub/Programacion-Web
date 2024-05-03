@@ -19,6 +19,14 @@
     max-height: 90px; 
     width: auto;
   }
+
+  .header-background {
+    background-image: url('/Imagenes/Otros/fondo1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+  }
   
   .contenedor {
     width: 90%;
