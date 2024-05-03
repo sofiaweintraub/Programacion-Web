@@ -2,7 +2,6 @@ function cotizar(){
     var tour = document.getElementById('tour').value;
     var personas = document.getElementById('personas').value;
     var precio = 0;
-    var cantidad = 0;
     var resumen = '';
 
     if (tour.toLowerCase() == 'boca juniors' || tour.toLowerCase() == 'boca' || tour.toLowerCase() == 'bocajuniors') {
@@ -36,14 +35,8 @@ function cotizar(){
     }
 
     else if (precio != 0){
-        salida = "Tour seleccionado: " + tour + "\nCantidad de personas: " + personas;
-        alert('\nLa experiencia te saldrá $' + precio*cantidad + ' pesos argentinos\n\n' + salida);
-
+        resumen = "Tour seleccionado: " + tour + "\nCantidad de personas: " + personas;
+        alert('\nLa experiencia te saldrá $' + precio*personas + ' pesos argentinos\n\n' + resumen);
     }
-
-
-
-
-
 
 }
