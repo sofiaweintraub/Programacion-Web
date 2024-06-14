@@ -63,6 +63,11 @@ function cotizar() {
         alert('Por favor ingresar una cantidad de personas mayor a 0');
         return;
     }
+    
+    if (personas == null){
+        alert('Se olvidó de ingresar cantidad de personas! Por favor ingrese un valor mayor a 0');
+        return;
+    }
 
     // Mostrar resumen y precio total
     if (precio != 0) {
