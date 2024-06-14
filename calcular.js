@@ -1,42 +1,72 @@
-function cotizar(){
-    var tour = document.getElementById('tour').value;
-    var personas = document.getElementById('personas').value;
+function cotizar() {
+    var tour = document.getElementById('tour').value.toLowerCase();
+    var personas = parseInt(document.getElementById('personas').value, 10);
     var precio = 0;
     var resumen = '';
 
-    if (tour.toLowerCase() == 'boca juniors' || tour.toLowerCase() == 'boca' || tour.toLowerCase() == 'bocajuniors') {
-        precio = 40000;
+    // Diccionario de tours y sus precios
+    var tours = {
+        'boca juniors': 40000,
+        'boca': 40000,
+        'bocajuniors': 40000,
+        'river plate': 40000,
+        'river': 40000,
+        'riverplate': 40000,
+        'argentinos juniors': 60000,
+        'argentinos': 60000,
+        'argentinosjuniors': 60000,
+        'boca juniors y river plate': 75000,
+        'boca juniors river plate': 75000,
+        'boca y river': 75000,
+        'boca river': 75000,
+        'bocariver': 75000,
+        'river plate y boca juniors': 75000,
+        'river plate boca juniors': 75000,
+        'river y boca': 75000,
+        'river boca': 75000,
+        'riverboca': 75000,
+        'todos': 90000,
+        'todas': 90000,
+        'los 3 tours': 90000,
+        'los 3': 90000,
+        'las 3 tours': 90000,
+        'las 3': 90000,
+        'los tres tours': 90000,
+        'los tres': 90000,
+        'las tres tours': 90000,
+        'las tres': 90000,
+        'argentinos river y boca': 90000,
+        'argentinos river boca': 90000,
+        'river boca y argentinos': 90000,
+        'river boca argentinos': 90000,
+        'boca river y argentinos': 90000,
+        'boca river argentinos': 90000,
+        'boca y river y argentinos': 90000,
+        'boca river argentinos': 90000,
+        'argentinos y river y boca': 90000,
+        'argentinos river y boca': 90000,
+        'argentinos river boca': 90000,
+        'todos los tours': 90000,
+        'todas las tours': 90000,
+    };
+
+    // Validar el tour ingresado
+    if (tour in tours) {
+        precio = tours[tour];
+    } else {
+        alert('El tour ingresado no es válida! \nPor favor volvé a intentar');
+        return;
     }
 
-    else if (tour.toLowerCase() == 'river plate' || tour.toLowerCase() == 'river' || tour.toLowerCase() == 'riverplate') {
-        precio = 40000;
-    }
-
-    else if (tour.toLowerCase() == 'argentinos juniors' || tour.toLowerCase() == 'argentinos' || tour.toLowerCase() == 'argentinosjuniors') {
-        precio = 60000;
-    }
-
-    else if (tour.toLowerCase() == 'boca juniors y river plate' || tour.toLowerCase() == 'boca y river' || tour.toLowerCase() == 'bocariver' ||
-        tour.toLowerCase() == 'river plate y boca juniors' || tour.toLowerCase() == 'river y boca' || tour.toLowerCase() == 'riverboca') {
-        precio = 75000;
-    }
-
-    else if (tour.toLowerCase() == 'todos' || tour.toLowerCase() == 'los 3 tours' || tour.toLowerCase() == 'los 3' ||
-        tour.toLowerCase() == 'argentinos river y boca' || tour.toLowerCase() == 'river boca y argentinos' || tour.toLowerCase() == 'boca river y argentinos') {
-        precio = 90000;
-    }
-
-    else {
-        alert('La experiencia ingresada no es válida! \nPor favor volvé a intentar');
-    }
-
-    if (personas == 0) {
+    // Validar la cantidad de personas
+    if (personas <= 0) {
         alert('Por favor ingresar una cantidad de personas mayor a 0');
+        return;
     }
 
-    else if (precio != 0){
+    // Mostrar resumen y precio total
+    if (precio != 0) {
         resumen = "Tour seleccionado: " + tour + "\nCantidad de personas: " + personas;
-        alert('\nLa experiencia te saldrá $' + precio*personas + ' pesos argentinos\n\n' + resumen);
+        alert('\nEl tour te saldrá $' + (precio * personas) + ' pesos argentinos\n\n' + resumen);
     }
-
 }
