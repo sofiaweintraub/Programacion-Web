@@ -59,13 +59,13 @@ function cotizar() {
     }
 
     // Validar la cantidad de personas
-    if (personas <= 0) {
-        alert('Por favor ingresar una cantidad de personas mayor a 0');
+    if (!personasInput){
+        alert('Se olvidó de ingresar cantidad de personas! Por favor ingrese la cantidad de personas');
         return;
     }
-    
-    if (personas == null){
-        alert('Se olvidó de ingresar cantidad de personas! Por favor ingrese un valor mayor a 0');
+
+    if (personas <= 0) {
+        alert('Por favor ingresar una cantidad de personas mayor a 0');
         return;
     }
 
