@@ -10,7 +10,7 @@ li {
   display: inline;
   margin-left: 55px;
   margin-top: 20px;
-}
+ }
 
 :root{
   scroll-behavior: smooth;
@@ -21,12 +21,13 @@ li {
   width: auto;
 }
 
-.contenedor {
+.contenedor{
   width: 90%;
   max-width: 1200px;
   overflow: hidden;
   margin: auto;
   padding: 60px 0;
+
 }
 
 #contacto {
