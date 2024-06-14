@@ -1,6 +1,7 @@
 function cotizar() {
     var tour = document.getElementById('tour').value.toLowerCase();
-    var personas = parseInt(document.getElementById('personas').value, 10);
+    var personasInput = document.getElementById('personas').value;
+    var personas = parseInt(personasInput, 10);
     var precio = 0;
     var resumen = '';
 
@@ -59,13 +60,8 @@ function cotizar() {
     }
 
     // Validar la cantidad de personas
-    if (!personasInput){
-        alert('Se olvidó de ingresar cantidad de personas! Por favor ingrese la cantidad de personas');
-        return;
-    }
-
-    if (personas <= 0) {
-        alert('Por favor ingresar una cantidad de personas mayor a 0');
+    if (!personasInput || isNaN(personas) || personas <= 0) {
+        alert('Por favor ingrese una cantidad válida de personas mayor a 0');
         return;
     }
 
