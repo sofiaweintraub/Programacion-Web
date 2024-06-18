@@ -51,13 +51,18 @@
       <div class="formulario">
         <h1>Cotizá tu tour</h1>
         <h2>en Buenos Aires</h2>
-        <select id="tour" multiple>
-          <option value="boca juniors">Boca Juniors</option>
-          <option value="river plate">River Plate</option>
-          <option value="maradona">Maradona</option>
-          <option value="boca juniors y river plate">Boca Juniors y River Plate</option>
-          <option value="todos">Todos los tours</option>
-        </select>
+        <div class="dropdown">
+          <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+            Selecciona tu tour
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <li><label class="dropdown-item"><input type="checkbox" value="boca juniors"> Boca Juniors</label></li>
+            <li><label class="dropdown-item"><input type="checkbox" value="river plate"> River Plate</label></li>
+            <li><label class="dropdown-item"><input type="checkbox" value="maradona"> Maradona: La tierra de D10S</label></li>
+            <li><label class="dropdown-item"><input type="checkbox" value="boca juniors y river plate"> Boca Juniors y River Plate</label></li>
+            <li><label class="dropdown-item"><input type="checkbox" value="todos"> Todos los tours</label></li>
+          </ul>
+        </div>
         <input type="number" id="personas" placeholder="Cantidad de personas" required>
         <br />
         <button class="button" onclick="cotizar()" style="margin-top: 25px;">Cotizar</button>
@@ -68,6 +73,5 @@
 
     <!-- Enlace al archivo de JavaScript de Bootstrap 5 (requerido para el funcionamiento del menú en dispositivos móviles) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
   </body>
 </html>

@@ -1,6 +1,6 @@
 function cotizar() {
-    var tourSelect = document.getElementById('tour');
-    var selectedTours = Array.from(tourSelect.selectedOptions).map(option => option.value.toLowerCase());
+    var checkboxes = document.querySelectorAll('input[type="checkbox"]:checked');
+    var selectedTours = Array.from(checkboxes).map(checkbox => checkbox.value.toLowerCase());
     var personasInput = document.getElementById('personas').value;
     var personas = parseInt(personasInput, 10);
     var precioTotal = 0;
