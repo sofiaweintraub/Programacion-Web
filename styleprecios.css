@@ -76,6 +76,7 @@
   .formulario select {
     appearance: none;
     background: none;
+    color: #000;
   }
   
   .formulario select:focus, .formulario input:focus {
