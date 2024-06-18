@@ -21,15 +21,21 @@ function cotizar() {
         return;
     }
 
+    // Validar que se haya seleccionado al menos un tour
+    if (selectedTours.length === 0) {
+        alert('Por favor seleccione al menos un tour');
+        return;
+    }
+
     // Calcular el precio total basado en las combinaciones seleccionadas
-    for (var tour of selectedTours) {
+    selectedTours.forEach(tour => {
         if (tour in tourCombinations) {
-            precio = tourCombinations[tour];
+            precio += tourCombinations[tour];
         } else {
             alert('Uno o más tours seleccionados no son válidos');
             return;
         }
-    }
+    });
 
     // Mostrar resumen y precio total
     if (precio != 0) {
