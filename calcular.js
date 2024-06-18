@@ -3,7 +3,7 @@ function cotizar() {
     var selectedTours = Array.from(checkboxes).map(checkbox => checkbox.value.toLowerCase());
     var personasInput = document.getElementById('personas').value;
     var personas = parseInt(personasInput, 10);
-    var precioTotal = 0;
+    var precio = 0;
     var resumen = '';
 
     // Diccionario de combinaciones de tours y sus precios
@@ -24,7 +24,7 @@ function cotizar() {
     // Calcular el precio total basado en las combinaciones seleccionadas
     for (var tour of selectedTours) {
         if (tour in tourCombinations) {
-            precioTotal += tourCombinations[tour];
+            precio = tourCombinations[tour];
         } else {
             alert('Uno o más tours seleccionados no son válidos');
             return;
@@ -32,9 +32,8 @@ function cotizar() {
     }
 
     // Mostrar resumen y precio total
-    if (precioTotal != 0) {
+    if (precio != 0) {
         resumen = "Tours seleccionados: " + selectedTours.join(', ') + "\nCantidad de personas: " + personas;
-        alert('\nEl tour te saldrá $' + (precioTotal * personas) + ' pesos argentinos\n\n' + resumen);
-        return;
+        alert('\nEl tour te saldrá $' + (precio * personas) + ' pesos argentinos\n\n' + resumen);
     }
 }
