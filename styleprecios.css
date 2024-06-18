@@ -11,12 +11,12 @@
     margin-top: 20px;
   }
   
-  :root {
+  :root{
     scroll-behavior: smooth;
   }
   
   .navbar-brand img {
-    max-height: 90px;
+    max-height: 90px; 
     width: auto;
   }
   
@@ -28,95 +28,93 @@
     background-position: center;
   }
   
-  /* Cotización */
-  button {
-    font-size: 12px;
+  /*Cotizacion*/
+  button{
+    font-size: 12px ;
     padding: 10px 40px;
     background-color: #2d45e1;
     color: #fff;
     border: none;
     cursor: pointer;
   }
-  
+    
   #calculadora {
     background-color: white;
     margin-top: 80px;
   }
-  
+      
   .formulario {
     width: 80%;
     padding: 2% 10%;
     margin: 0 auto;
   }
-  
-  .formulario h1 {
+      
+  .formulario h1{
     text-align: center;
     font-size: 25px;
     font-weight: bold;
     color: #ffc32d;
   }
-  
-  .formulario h2 {
+      
+  .formulario h2{
     text-align: center;
     font-size: 20px;
     margin-bottom: 30px;
     color: #ffc32d;
   }
   
-  .formulario input {
+  .formulario select, .formulario input {
     width: 50%;
-    margin: 30px;
+    margin: 10px 0;
     border: 0px;
     border-bottom: 2px solid #bababa;
     font-size: 17px;
     color: #2d45e1;
+    padding: 8px;
   }
   
-  .formulario .dropdown {
-    margin: 30px auto;
-    width: 50%;
+  .formulario select {
+    appearance: none;
+    background: none;
   }
   
-  .formulario .dropdown-menu {
-    width: 100%;
-    padding: 10px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  .formulario select:focus, .formulario input:focus {
+    outline: none;
+    border-bottom-color: #2d45e1;
   }
   
-  .formulario .dropdown-menu label {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding: 5px 0;
+  .formulario select option {
+    color: #000;
+  }
+  
+  button {
+    font-size: 14px;
+    padding: 8px 20px;
   }
   
   /* Visión adaptada al celular */
   @media only screen and (max-width: 995px) {
   
     .formulario h1 {
-      font-size: 20px;
+      font-size: 20px; 
     }
   
     .formulario h2 {
-      font-size: 15px;
-      margin-bottom: 20px;
+      font-size: 15px; 
+      margin-bottom: 20px; 
     }
   
-    .formulario input {
-      width: 100%;
+    .formulario input, .formulario select {
+      width: 100%; 
       margin: 20px 0;
-      font-size: 14px;
-      padding: 8px;
-      border-bottom: 1.5px solid #bababa;
+      font-size: 14px; 
+      padding: 8px; 
+      border-bottom: 1.5px solid #bababa; 
     }
   
     button {
-      font-size: 14px;
-      padding: 8px 20px;
-    }
-  
-    .formulario .dropdown {
-      width: 100%;
+      font-size: 14px; 
+      padding: 8px 20px; 
     }
   }
   
