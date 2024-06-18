@@ -1,13 +1,13 @@
 function cotizar() {
     var checkboxes = document.querySelectorAll('input[type="checkbox"]:checked');
-    var selectedTours = Array.from(checkboxes).map(checkbox => checkbox.value.toLowerCase());
+    var tour = Array.from(checkboxes).map(checkbox => checkbox.value.toLowerCase());
     var personasInput = document.getElementById('personas').value;
     var personas = parseInt(personasInput, 10);
     var precioTotal = 0;
     var resumen = '';
 
     // Diccionario de combinaciones de tours y sus precios
-    var tourCombinations = {
+    var tours = {
         'boca juniors': 40000,
         'river plate': 40000,
         'maradona': 60000,
@@ -22,13 +22,11 @@ function cotizar() {
     }
 
     // Calcular el precio total basado en las combinaciones seleccionadas
-    for (var tour of selectedTours) {
-        if (tour in tourCombinations) {
-            precioTotal += tourCombinations[tour];
-        } else {
-            alert('Uno o más tours seleccionados no son válidos');
-            return;
-        }
+    if (tour in tours) {
+        precio = tours[tour];
+    } else {
+        alert('El tour ingresado no es válida! \nPor favor volvé a intentar');
+        return;
     }
 
     // Mostrar resumen y precio total
