@@ -33,7 +33,7 @@ function cotizar() {
 
     // Mostrar resumen y precio total
     if (precioTotal != 0) {
-        resumen = "Tours seleccionados: " + selectedTours.join(', ') + "\nCantidad de personas: " + personas;
-        alert('\nEl tour te saldrá $' + (precioTotal * personas) + ' pesos argentinos\n\n' + resumen);
+        resumen = "Tour seleccionado: " + tour + "\nCantidad de personas: " + personas;
+        alert('\nEl tour te saldrá $' + (precio * personas) + ' pesos argentinos\n\n' + resumen);
     }
 }
