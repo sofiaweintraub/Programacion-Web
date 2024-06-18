@@ -15,12 +15,6 @@ function cotizar() {
         'todos': 90000,
     };
 
-    // Validar las selecciones de tours
-    if (selectedTours.length === 0) {
-        alert('Por favor seleccioná al menos un tour');
-        return;
-    }
-
     // Validar la cantidad de personas
     if (!personasInput || isNaN(personas) || personas <= 0) {
         alert('Por favor ingrese una cantidad válida de personas mayor a 0');
