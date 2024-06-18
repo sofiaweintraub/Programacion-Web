@@ -69,14 +69,13 @@
     border: 0px;
     border-bottom: 2px solid #bababa;
     font-size: 17px;
-    color: #000;
+    color: #2d45e1;
     padding: 8px;
   }
   
   .formulario select {
     appearance: none;
     background: none;
-    color: #000;
   }
   
   .formulario select:focus, .formulario input:focus {
