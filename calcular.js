@@ -12,7 +12,7 @@ function cotizar() {
         'river plate': 40000,
         'maradona': 60000,
         'boca juniors y river plate': 75000,
-        'todos': 90000,
+        'todos los tours': 90000,
     };
 
     // Validar la cantidad de personas
