@@ -63,19 +63,31 @@
     color: #ffc32d;
   }
   
-  .formulario input,
-  .formulario select {
+  .formulario input {
     width: 50%;
     margin: 30px;
     border: 0px;
     border-bottom: 2px solid #bababa;
     font-size: 17px;
     color: #2d45e1;
-    background: none;
   }
   
-  .formulario select {
-    height: 40px;
+  .formulario .dropdown {
+    margin: 30px auto;
+    width: 50%;
+  }
+  
+  .formulario .dropdown-menu {
+    width: 100%;
+    padding: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .formulario .dropdown-menu label {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
   }
   
   /* Visión adaptada al celular */
@@ -90,8 +102,7 @@
       margin-bottom: 20px;
     }
   
-    .formulario input,
-    .formulario select {
+    .formulario input {
       width: 100%;
       margin: 20px 0;
       font-size: 14px;
@@ -102,6 +113,10 @@
     button {
       font-size: 14px;
       padding: 8px 20px;
+    }
+  
+    .formulario .dropdown {
+      width: 100%;
     }
   }
   
