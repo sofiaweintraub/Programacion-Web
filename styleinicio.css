@@ -78,7 +78,7 @@
   .columna {
     flex-basis: 20%;
     text-align: left;
-    backdrop-filter: blur(6px); /* Cambiado a 6px para un efecto de borroso más suave */
+    backdrop-filter: blur(6px); 
   }
 
   #informacion h4 {
@@ -145,7 +145,7 @@
   
   .social-media {
     display: flex;
-    justify-content: flex-end; /* Cambiado a flex-end */
+    justify-content: flex-end; 
     width: 50%;
   }
   
@@ -216,9 +216,9 @@
     }
   
     .imagen img {
-      max-width: 100%; /* Ajusta el tamaño de la imagen para que se ajuste al contenedor */
-      height: auto; /* Mantiene la proporción de la imagen */
-      max-height: 400px; /* Establece la altura máxima de la imagen */
+      max-width: 100%; 
+      height: auto; 
+      max-height: 400px; 
     }
   
     .footer-content {
@@ -253,31 +253,31 @@
     }
   
     .navbar-nav .nav-item {
-      margin-top: 10px; /* Espacio entre elementos del menú en pantallas pequeñas */
+      margin-top: 10px; 
     }
   
     .navbar-toggler {
-      position: relative; /* Ajustar la posición del botón de hamburguesa */
+      position: relative; 
       z-index: 1; 
     }
   
     .navbar-collapse {
-      position: absolute; /* Ajustar la posición del menú desplegable */
-      top: 100%; /* Alinear el menú desplegable debajo del botón de hamburguesa */
-      left: 0; /* Alinear el menú desplegable a la izquierda */
-      width: 100%; /* Establecer el ancho completo del menú desplegable */
+      position: absolute; 
+      top: 100%; 
+      left: 0; 
+      width: 100%; 
       z-index: 1000; 
       background-color: #ffffff; 
-      padding: 10px 0; /* Añadir relleno al menú desplegable */
+      padding: 10px 0; 
       display: none; 
     }
   
     .navbar-collapse.show {
-      display: block; /* Mostrar el menú desplegable cuando está abierto */
+      display: block; 
     }
   
     .navbar-nav .nav-link {
-      padding: 10px 20px; /* Añadir relleno a los enlaces del menú */
-      display: block; /* Mostrar los enlaces del menú como bloques */
+      padding: 10px 20px; 
+      display: block; 
     }
   }
